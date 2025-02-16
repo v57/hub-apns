@@ -67,3 +67,4 @@ new Service()
     if (!notifications.length) return
     await client.sendMany(notifications)
   })
+  .start()
