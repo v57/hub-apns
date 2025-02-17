@@ -4,7 +4,7 @@
     "": {
       "name": "apns",
       "dependencies": {
-        "apns2": "^12.1.0",
+        "apns2": "^11.7.0",
         "hub-service": "v57/hub-service",
       },
       "devDependencies": {
@@ -24,7 +24,7 @@
 
     "@types/ws": ["@types/ws@8.5.14", "", { "dependencies": { "@types/node": "*" } }, "sha512-bd/YFLW+URhBzMXurx7lWByOu+xzU9+kb3RboOteXYDfW+tr+JZa99OyNmPINEGB/ahzKrEuc8rcv4gnpJmxTw=="],
 
-    "apns2": ["apns2@12.1.0", "", { "dependencies": { "fast-jwt": "^5.0.0", "undici": "^7.0.0" } }, "sha512-koTCFzjw7yuzL8UK/fIy5/HgtvfbXrDpnopqO0Hx7BQ0ObchUpAB1GFyzGCLIZiAqpq/tv+64Ymy9nZEHjnNXQ=="],
+    "apns2": ["apns2@11.8.0", "", { "dependencies": { "fast-jwt": "^4.0.5", "fetch-http2": "^1.5.0" } }, "sha512-oM5DsBLmnXt7CbjWw5R4d/Na6QQBGpcdQiN9LqI3ppXfmB8bDo07xV8qAl/jxcyo7oynCk5MY7/19F1nV4rhbw=="],
 
     "asn1.js": ["asn1.js@5.4.1", "", { "dependencies": { "bn.js": "^4.0.0", "inherits": "^2.0.1", "minimalistic-assert": "^1.0.0", "safer-buffer": "^2.1.0" } }, "sha512-+I//4cYPccV8LdmBLiX8CYvf9Sp3vQsrqu2QNXRcrbiWvcx/UdlFiqUJJzxRQxgsZmvhXhn4cSKeSmoFjVdupA=="],
 
@@ -34,7 +34,9 @@
 
     "ecdsa-sig-formatter": ["ecdsa-sig-formatter@1.0.11", "", { "dependencies": { "safe-buffer": "^5.0.1" } }, "sha512-nagl3RYrbNv6kQkeJIpt6NJZy8twLB/2vtz6yN9Z4vRKHN4/QZJIEbqohALSgwKdnksuY3k5Addp5lg8sVoVcQ=="],
 
-    "fast-jwt": ["fast-jwt@5.0.5", "", { "dependencies": { "@lukeed/ms": "^2.0.2", "asn1.js": "^5.4.1", "ecdsa-sig-formatter": "^1.0.11", "mnemonist": "^0.39.8" } }, "sha512-Ch94zewwBjRznO0r76NFI5FDT0lOtnzkWVO4r7+d7E2WKuf7WW1FVOWRpv7QGEFlXzz9OAayrb5BhEmkOkwjhg=="],
+    "fast-jwt": ["fast-jwt@4.0.6", "", { "dependencies": { "@lukeed/ms": "^2.0.1", "asn1.js": "^5.4.1", "ecdsa-sig-formatter": "^1.0.11", "mnemonist": "^0.39.5" } }, "sha512-kyNxaoy/m8pDQdyn+gl4FOTNEOrLK/1iAU4MP8cTz3mErOyh+BtvoCNFxKsyY4zlEKWO5HMY526zRXdoiPc6Rg=="],
+
+    "fetch-http2": ["fetch-http2@1.5.0", "", {}, "sha512-eijz2/iD8spkpByYnGqozYtNoYEmWIveDvEoyVTZ0bt1I/Kk42LaIn6TSFhV5eYSj/PnBeas8arZ1j6VIC3Wcw=="],
 
     "hub-service": ["hub-service@github:v57/hub-service#2479371", { "peerDependencies": { "typescript": "^5.0.0" } }, "v57-hub-service-2479371"],
 
@@ -51,8 +53,6 @@
     "safer-buffer": ["safer-buffer@2.1.2", "", {}, "sha512-YZo3K82SD7Riyi0E1EQPojLz7kpepnSQI9IyPbHHg1XXXevb5dJI7tpyN2ADxGcQbHG7vcyRHk0cbwqcQriUtg=="],
 
     "typescript": ["typescript@5.7.3", "", { "bin": { "tsc": "bin/tsc", "tsserver": "bin/tsserver" } }, "sha512-84MVSjMEHP+FQRPy3pX9sTVV/INIex71s9TL2Gm5FG/WG1SqXeKyZ0k7/blY/4FdOzI12CBy1vGc4og/eus0fw=="],
-
-    "undici": ["undici@7.3.0", "", {}, "sha512-Qy96NND4Dou5jKoSJ2gm8ax8AJM/Ey9o9mz7KN1bb9GP+G0l20Zw8afxTnY2f4b7hmhn/z8aC2kfArVQlAhFBw=="],
 
     "undici-types": ["undici-types@6.20.0", "", {}, "sha512-Ny6QZ2Nju20vw1SRHe3d9jVu6gJ+4e3+MMpqu7pqE5HT6WsTSlce++GQmK5UXS8mzV8DSYHrQH+Xrf2jVcuKNg=="],
   }

@@ -9,7 +9,7 @@
     "typescript": "^5.0.0"
   },
   "dependencies": {
-    "apns2": "^12.1.0",
+    "apns2": "^11.7.0",
     "hub-service": "v57/hub-service"
   }
 }
