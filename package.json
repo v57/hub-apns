@@ -6,10 +6,10 @@
     "@types/bun": "latest"
   },
   "peerDependencies": {
-    "typescript": "^5.0.0"
+    "typescript": "^5.7.3"
   },
   "dependencies": {
-    "apns2": "^11.7.0",
+    "apns2": "^11.8.0",
     "hub-service": "v57/hub-service"
   }
 }

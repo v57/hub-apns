@@ -4,25 +4,23 @@
     "": {
       "name": "apns",
       "dependencies": {
-        "apns2": "^11.7.0",
+        "apns2": "^11.8.0",
         "hub-service": "v57/hub-service",
       },
       "devDependencies": {
         "@types/bun": "latest",
       },
       "peerDependencies": {
-        "typescript": "^5.0.0",
+        "typescript": "^5.7.3",
       },
     },
   },
   "packages": {
     "@lukeed/ms": ["@lukeed/ms@2.0.2", "", {}, "sha512-9I2Zn6+NJLfaGoz9jN3lpwDgAYvfGeNYdbAIjJOqzs4Tpc+VU3Jqq4IofSUBKajiDS8k9fZIg18/z13mpk1bsA=="],
 
-    "@types/bun": ["@types/bun@1.2.2", "", { "dependencies": { "bun-types": "1.2.2" } }, "sha512-tr74gdku+AEDN5ergNiBnplr7hpDp3V1h7fqI2GcR/rsUaM39jpSeKH0TFibRvU0KwniRx5POgaYnaXbk0hU+w=="],
+    "@types/bun": ["@types/bun@1.2.15", "", { "dependencies": { "bun-types": "1.2.15" } }, "sha512-U1ljPdBEphF0nw1MIk0hI7kPg7dFdPyM7EenHsp6W5loNHl7zqy6JQf/RKCgnUn2KDzUpkBwHPnEJEjII594bA=="],
 
     "@types/node": ["@types/node@22.13.4", "", { "dependencies": { "undici-types": "~6.20.0" } }, "sha512-ywP2X0DYtX3y08eFVx5fNIw7/uIv8hYUKgXoK8oayJlLnKcRfEYCxWMVE1XagUdVtCJlZT1AU4LXEABW+L1Peg=="],
-
-    "@types/ws": ["@types/ws@8.5.14", "", { "dependencies": { "@types/node": "*" } }, "sha512-bd/YFLW+URhBzMXurx7lWByOu+xzU9+kb3RboOteXYDfW+tr+JZa99OyNmPINEGB/ahzKrEuc8rcv4gnpJmxTw=="],
 
     "apns2": ["apns2@11.8.0", "", { "dependencies": { "fast-jwt": "^4.0.5", "fetch-http2": "^1.5.0" } }, "sha512-oM5DsBLmnXt7CbjWw5R4d/Na6QQBGpcdQiN9LqI3ppXfmB8bDo07xV8qAl/jxcyo7oynCk5MY7/19F1nV4rhbw=="],
 
@@ -30,7 +28,9 @@
 
     "bn.js": ["bn.js@4.12.1", "", {}, "sha512-k8TVBiPkPJT9uHLdOKfFpqcfprwBFOAAXXozRubr7R7PfIuKvQlzcI4M0pALeqXN09vdaMbUdUj+pass+uULAg=="],
 
-    "bun-types": ["bun-types@1.2.2", "", { "dependencies": { "@types/node": "*", "@types/ws": "~8.5.10" } }, "sha512-RCbMH5elr9gjgDGDhkTTugA21XtJAy/9jkKe/G3WR2q17VPGhcquf9Sir6uay9iW+7P/BV0CAHA1XlHXMAVKHg=="],
+    "bun-types": ["bun-types@1.2.15", "", { "dependencies": { "@types/node": "*" } }, "sha512-NarRIaS+iOaQU1JPfyKhZm4AsUOrwUOqRNHY0XxI8GI8jYxiLXLcdjYMG9UKS+fwWasc1uw1htV9AX24dD+p4w=="],
+
+    "channel": ["channel@github:v57/channel#a4ba2af", { "peerDependencies": { "typescript": "^5.0.0" } }, "v57-channel-a4ba2af"],
 
     "ecdsa-sig-formatter": ["ecdsa-sig-formatter@1.0.11", "", { "dependencies": { "safe-buffer": "^5.0.1" } }, "sha512-nagl3RYrbNv6kQkeJIpt6NJZy8twLB/2vtz6yN9Z4vRKHN4/QZJIEbqohALSgwKdnksuY3k5Addp5lg8sVoVcQ=="],
 
@@ -38,7 +38,7 @@
 
     "fetch-http2": ["fetch-http2@1.5.0", "", {}, "sha512-eijz2/iD8spkpByYnGqozYtNoYEmWIveDvEoyVTZ0bt1I/Kk42LaIn6TSFhV5eYSj/PnBeas8arZ1j6VIC3Wcw=="],
 
-    "hub-service": ["hub-service@github:v57/hub-service#2479371", { "peerDependencies": { "typescript": "^5.0.0" } }, "v57-hub-service-2479371"],
+    "hub-service": ["hub-service@github:v57/hub-service#0cf4b4f", { "dependencies": { "channel": "v57/channel" }, "peerDependencies": { "typescript": "^5.8.3" } }, "v57-hub-service-0cf4b4f"],
 
     "inherits": ["inherits@2.0.4", "", {}, "sha512-k/vGaX4/Yla3WzyMCvTQOXYeIHvqOKtnqBduzTHpzpQZzAskKMhZ2K+EnBiSM9zGSoIFeMpXKxa4dYeZIQqewQ=="],
 
