@@ -10,6 +10,7 @@
   },
   "dependencies": {
     "apns2": "^11.8.0",
+    "channel": "v57/channel",
     "hub-service": "v57/hub-service"
   }
 }
